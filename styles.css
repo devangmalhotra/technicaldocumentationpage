@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
+    min-width: 300px;
 }
 
 .section-title {
@@ -8,16 +9,14 @@ body {
 }
 
 #main-doc {
-    background-color: bisque;
+    /*background-color: bisque;*/
     position: absolute;
-    height: 100%;
     margin: 0 50px 0 300px;
-    min-width: 1100px;
-    top: 20px;
+    padding: 20px;
+    min-width: 500px;
 }
 
-#nav-bar {
-    background-color: azure;
+#navbar {
     position: fixed;
     width: 260px;
     padding: 0 0px;
@@ -26,21 +25,39 @@ body {
     
 }
 
-#nav-bar h1 {
+#navbar h1 {
     text-align: center;
 }
 
-#nav-bar ul {
+.navbarlist {
     list-style: none;
     padding-left: 0px;
     
 }
 
-li {
+.navbaritem{
     border-top: solid;
 }
 
 p {
-    font-size: large;
+    font-size: medium;
     margin: 20px 25px;
+    line-height: 1.5;
+    color: #424242;
+}
+
+.navbaritemtext {
+    font-size: large;
+}
+
+.articlelistitem {
+    margin: 0 0 0 50px;
+    color: #424242;
+}
+
+code {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
 }
