@@ -60,4 +60,9 @@ code {
     padding: 10px;
     display: block;
     border-radius: 5px;
+    white-space: pre-line
+}
+
+a {
+    text-decoration: none;
 }

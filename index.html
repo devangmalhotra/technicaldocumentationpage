@@ -8,17 +8,19 @@
 </head>
 <body>
     <nav id="navbar">
-        <h1>Py Documentation</h1>
+        <header>
+            <h1>Documentation</h1>
+        </header>
         <ul class="navbarlist">
-            <li class="navbaritem"><p class="navbaritemtext">First Section</p></li>
-            <li class="navbaritem"><p class="navbaritemtext">Second Section</p></li>
-            <li class="navbaritem"><p class="navbaritemtext">Third Section</p></li>
-            <li class="navbaritem"><p class="navbaritemtext">Fourth Section</p></li>
-            <li class="navbaritem"><p class="navbaritemtext">Fifth Section</p></li>
+            <li class="navbaritem"><a class="nav-link" href="#First_Section"><p class="navbaritemtext">First Section</p></a></li>
+            <li class="navbaritem"><a class="nav-link" href="#Second_Section"><p class="navbaritemtext">Second Section</p></a></li>
+            <li class="navbaritem"><a class="nav-link" href="#Third_Section"><p class="navbaritemtext">Third Section</p></a></li>
+            <li class="navbaritem"><a class="nav-link" href="#Fourth_Section"><p class="navbaritemtext">Fourth Section</p></a></li>
+            <li class="navbaritem"><a class="nav-link" href="#Fifth_Section"><p class="navbaritemtext">Fifth Section</p></a></li>
         </ul>
     </nav>
     <main id="main-doc">
-        <section class="main-section">
+        <section class="main-section" id="First_Section">
             <header>
                 <h1 class="section-title">First Section</h1>
             </header>
@@ -35,7 +37,7 @@
                 </ul>
             </article>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="Second_Section">
             <header>
                 <h1 class="section-title">Second Section</h1>
             </header>
@@ -54,7 +56,7 @@
                 </ul>
             </article>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="Third_Section">
             <header>
                 <h1 class="section-title">Third Section</h1>
             </header>
@@ -64,7 +66,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam autem eum porro, distinctio amet voluptas quas a maiores aspernatur nihil tempora accusantium iste quidem veniam debitis perspiciatis? Dolores, expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id recusandae illum magni debitis impedit saepe voluptatem esse nisi, reprehenderit quos minima itaque ab, quibusdam sit quidem consequatur fuga sapiente voluptates.</p>
             </article>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="Fourth_Section">
             <header>
                 <h1 class="section-title">Fourth Section</h1>
             </header>
@@ -73,10 +75,16 @@
                 <p>
                     <code>x = 42</code>
                 </p>
+                <p>
+                    <code>x = "test"</code>
+                </p>
+                <p>
+                    <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
+                </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </article>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="Fifth_Section">
             <header>
                 <h1 class="section-title">Fifth Section</h1>
             </header>
@@ -85,6 +93,9 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas esse animi totam cumque quia. Accusantium reprehenderit nam doloremque, labore odio architecto iste modi enim adipisci inventore, similique voluptates voluptatem facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est in, obcaecati assumenda, ex praesentium, at fugit unde ut autem quo necessitatibus dolor dolore ipsum corrupti aperiam tempore natus deleniti. Laborum.</p>
                 <p>
                     <code>print("Hello World")</code>
+                </p>
+                <p>
+                    <code>str(input("Enter a number: ))</code>
                 </p>
             </article>
         </section>
