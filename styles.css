@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
-    min-width: 300px;
 }
 
 .section-title {
@@ -13,7 +12,6 @@ body {
     position: absolute;
     margin: 0 50px 0 300px;
     padding: 20px;
-    min-width: 500px;
 }
 
 #navbar {
@@ -65,4 +63,37 @@ code {
 
 a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 800px){
+    #navbar {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        max-height: 290px;
+        min-width: 300px;
+        border-bottom: solid 3px;
+        height: 270px;
+        overflow: hidden;
+    }
+
+    .navbarlist {
+        height: 200px;
+        overflow: scroll;
+    }
+
+    .navbaritemtext {
+        font-size: medium;
+        margin: 10px 25px;
+    }
+
+    #main-doc {
+        margin: 275px 0 0 0;
+        position: relative;
+        min-width: 260px;
+    }
+
+    #navbar li::a {
+        border-bottom: solid;
+    }
 }
