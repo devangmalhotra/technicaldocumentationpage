@@ -92,8 +92,4 @@ a {
         position: relative;
         min-width: 260px;
     }
-
-    #navbar li::a {
-        border-bottom: solid;
-    }
 }
